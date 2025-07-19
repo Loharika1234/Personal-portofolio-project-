@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome - Loharika's Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #f8f8f8, #cfd9df);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #2d2d2d;
+      margin-bottom: 0.3em;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #555;
+      text-align: center;
+      max-width: 600px;
+      margin-bottom: 2em;
+    }
+
+    .btn {
+      padding: 12px 28px;
+      font-size: 1.1em;
+      background: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(0, 119, 204, 0.3);
+      transition: background 0.3s ease, transform 0.2s;
+    }
+
+    .btn:hover {
+      background: #005fa3;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Loharika's Portfolio</h1>
+  <p>Step into a world of creativity, development, and innovation. Discover my work, my skills, and my passion.</p>
+  <button class="btn" onclick="location.href='index1.html'">Get Started</button>
+</body>
+</html>
